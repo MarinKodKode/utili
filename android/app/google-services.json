@@ -1,0 +1,39 @@
+ {
+  "project_info": {
+    "project_number": "392399092924",
+    "project_id": "green-calculator-cualli",
+    "storage_bucket": "green-calculator-cualli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392399092924:android:24e40bbab1ccfa5866a4b9",
+        "android_client_info": {
+          "package_name": "com.example.cuali_green_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392399092924-em8n2oo6vtae85su1iqvcf32f2j09mid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkk0lWL_Bl2j5U6TvZmvzthCP9KctG4yM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392399092924-em8n2oo6vtae85su1iqvcf32f2j09mid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
