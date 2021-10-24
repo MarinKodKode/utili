@@ -29,8 +29,8 @@ class _MainPageState extends State<MainPage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             MainTitle(
-              title: "Puntos verdes:",
-              subtitle: r"$475.16",
+              title: "KG de CO2 emitidos:",
+              subtitle: "475.16",
             ),
             MainElement(),
           ],

@@ -38,7 +38,7 @@ class MainElement extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text(
-                  "Emisiones",
+                  "Arboles por plantar",
                   style: TextStyle(
                     fontFamily: 'Lato',
                   ),
@@ -51,27 +51,11 @@ class MainElement extends StatelessWidget {
                 Container(
                   child: Row(
                     children: [
+                      Text("+ 2"),
                       Icon(
-                        Icons.arrow_upward_rounded,
+                        Icons.nature_outlined,
                         color: Colors.green,
                       ),
-                      Text("+200.0")
-                    ],
-                  ),
-                ),
-                Container(
-                  color: Color(0xffdddddd),
-                  width: 1,
-                  margin: EdgeInsets.all(0),
-                ),
-                Container(
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.arrow_downward_rounded,
-                        color: Colors.red,
-                      ),
-                      Text("-67.34")
                     ],
                   ),
                 ),
@@ -82,7 +66,7 @@ class MainElement extends StatelessWidget {
             margin: EdgeInsets.only(bottom: 25),
             child: ElevatedButton(
               child: Text(
-                "Cobrar",
+                "Mejorar marcas",
                 style: TextStyle(
                     fontSize: 16,
                     fontFamily: 'Lato',

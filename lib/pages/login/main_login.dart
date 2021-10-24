@@ -1,8 +1,10 @@
+import 'package:cuali_green_calculator/pages/login/main_register.dart';
+import 'package:cuali_green_calculator/pages/login/main_signin.dart';
 import 'package:cuali_green_calculator/pages/main_page/main_page.dart';
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget {
-  const Login({Key key}) : super(key: key);
+class Logino extends StatelessWidget {
+  const Logino({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +47,7 @@ class Login extends StatelessWidget {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (BuildContext context) {
-                        return MainPage();
+                        return Login();
                       },
                     ),
                   );
@@ -85,7 +87,7 @@ class Login extends StatelessWidget {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (BuildContext context) {
-                        return MainPage();
+                        return Register();
                       },
                     ),
                   );

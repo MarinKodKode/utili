@@ -50,10 +50,10 @@ class _SplashScreenState extends State<SplashScreen> {
     * dependiendo del resultado dirigimos al usuario al panel de inicio o al Login*/
     Timer(Duration(seconds: 6), () async {
       if (await CualliApp.auth.currentUser() != null) {
-        Route route = MaterialPageRoute(builder: (_) => MainPage());
+        Route route = MaterialPageRoute(builder: (_) => Logino());
         Navigator.pushReplacement(context, route);
       } else {
-        Route route = MaterialPageRoute(builder: (_) => Login());
+        Route route = MaterialPageRoute(builder: (_) => Logino());
         Navigator.pushReplacement(context, route);
       }
     });

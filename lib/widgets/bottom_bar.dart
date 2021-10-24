@@ -2,6 +2,7 @@ import 'package:cuali_green_calculator/pages/chart/chart.dart';
 import 'package:cuali_green_calculator/pages/eco_store/eco_store_main.dart';
 import 'package:cuali_green_calculator/pages/main_page/main_page.dart';
 import 'package:cuali_green_calculator/pages/tips/green_tips.dart';
+import 'package:cuali_green_calculator/pages/tips/tips.dart';
 import 'package:cuali_green_calculator/pages/user/user_main.dart';
 import 'package:flutter/material.dart';
 

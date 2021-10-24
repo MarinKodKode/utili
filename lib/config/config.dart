@@ -15,7 +15,8 @@ class CualliApp {
 
   static String collectionUser = "users";
   static String collectionOrders = "orders";
-  static String userCartList = 'userCart';
+  static String userHuella = 'userHuella';
+  static String userCatagoria = 'userCatagoria';
   static String subCollectionAddress = 'userAddress';
 
   static final String userName = 'name';

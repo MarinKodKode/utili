@@ -1,7 +1,10 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cuali_green_calculator/pages/main_page/widgets/title.dart';
 import 'package:cuali_green_calculator/pages/tips/widgets/tip.dart';
 import 'package:cuali_green_calculator/widgets/bottom_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Tips extends StatelessWidget {
   const Tips({Key key}) : super(key: key);
